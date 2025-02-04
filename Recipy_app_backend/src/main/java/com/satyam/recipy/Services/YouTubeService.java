@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class YouTubeService {
 
-    private final String API_KEY = "AIzaSyACBJfyVaAFTJEcWz6wqi7iWqDh3Q41c1M"; // Replace with your API Key
+    private final String API_KEY = "YOUR API KEY "; // Replace with your API Key
     private final String SEARCH_URL = "https://www.googleapis.com/youtube/v3/search";
     private final String CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels";
 
